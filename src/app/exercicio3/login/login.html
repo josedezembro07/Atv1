@@ -1,0 +1,17 @@
+<div style="padding: 20px;">
+  <h2>Login do Sistema</h2>
+  <form (submit)="entrar($event)">
+    <div style="margin-bottom: 10px;">
+      <label>Usuário: </label><br>
+      <input type="text" style="padding: 5px; width: 200px;" required>
+    </div>
+    <div style="margin-bottom: 15px;">
+      <label>Senha: </label><br>
+      <input type="password" style="padding: 5px; width: 200px;" required>
+    </div>
+    <div style="display: flex; gap: 10px;">
+      <button type="submit" style="padding: 8px 15px; cursor: pointer;">Entrar</button>
+      <button type="button" routerLink="/" style="padding: 8px 15px; cursor: pointer;">Voltar ao Início</button>
+    </div>
+  </form>
+</div>
